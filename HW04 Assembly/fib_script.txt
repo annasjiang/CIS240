@@ -1,0 +1,6 @@
+reset
+as fib fib
+ld fib
+set PC 0
+set R0 5
+break set END
