@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as arith libc arith
+ld os
+ld arith
+break set TRAP_HALT
